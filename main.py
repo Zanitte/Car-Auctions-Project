@@ -15,7 +15,7 @@ def main():
     )
     cursor = connection.cursor()
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('C:/Users/zanitte/PycharmProjects/ZNT/zanittes-software-high-resolution-logo.png'))
+    app.setWindowIcon(QIcon('C:/Users/zanitte/Documents/GitHub/Car-Auctions-Project/zanittes-software-high-resolution-logo.png'))
 
 
     app_style = """
