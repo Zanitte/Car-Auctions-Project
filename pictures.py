@@ -3,7 +3,6 @@ from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt, QSize, QRect, QAbstractListModel
 import textwrap
 
-
 class ListModel(QAbstractListModel):
     def __init__(self, data=None):
         super().__init__()
@@ -24,6 +23,7 @@ class ListModel(QAbstractListModel):
                 if not pixmap.isNull():
                     return pixmap
         return None
+
 class ImageTextDelegate(QStyledItemDelegate):
     def __init__(self, parent=None):
         super().__init__(parent)

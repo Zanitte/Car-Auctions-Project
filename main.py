@@ -4,7 +4,6 @@ from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QIcon
 from login import ointerfata
 
-
 def main():
     connection = mysql.connector.connect(
         host="localhost",

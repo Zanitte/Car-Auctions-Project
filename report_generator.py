@@ -9,7 +9,6 @@ class ReportGenerator:
         self.listing_items_map = listing_items_map
         self.report_browser = report_browser
 
-
     def generate_reports(self):
         today_date = date.today().strftime("%Y-%m-%d")
         report_text = ""

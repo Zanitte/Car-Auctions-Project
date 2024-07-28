@@ -2,7 +2,6 @@ from PySide6.QtGui import QIntValidator
 from PySide6.QtWidgets import *
 from datetime import datetime, timedelta
 
-
 class PaymentMethodDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -27,6 +26,7 @@ class PaymentMethodDialog(QDialog):
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
         layout.addRow(buttons)
+
 class AccountMenu:
     def __init__(self, parent, cursor, connection, logged_in_user):
         self.parent = parent

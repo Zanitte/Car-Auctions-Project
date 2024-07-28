@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import *
 
+
 class CommentsDialog(QDialog):
     def __init__(self, cursor, connection, listing_id, logged_in_user, parent=None):
         super().__init__(parent)

@@ -1,7 +1,6 @@
 import mysql.connector
 from PySide6.QtWidgets import *
 from PySide6.QtUiTools import QUiLoader
-
 from auctions import SecondInterface
 
 class ointerfata(QMainWindow):
